@@ -58,17 +58,15 @@ Jika perintah `python` tidak dikenali, sesuaikan dengan perintah Python yang ter
 
 ## Test Case
 
-Hasil aktual dan status diisi berdasarkan hasil program setelah dijalankan.
-
-| Program | Data uji | Hasil yang diharapkan | Hasil aktual | Status |
+| No. | Program dan data uji | Hasil yang diharapkan | Hasil aktual | Status |
 |---|---|---|---|---|
-| `01_buat_list.py` | `[75, 80, 65, 90, 88]` | List ditampilkan dan banyak data = 5 | Isi setelah diuji | Belum diuji |
-| `02_indeks_slicing.py` | `[75, 80, 65, 90, 88, 70]` | Indeks pertama = 75, indeks terakhir = 70, `nilai[:3]` = `[75, 80, 65]`, `nilai[1:4]` = `[80, 65, 90]` | Isi setelah diuji | Belum diuji |
-| `03_manipulasi_list.py` | `[75, 80, 65]` | Setelah perubahan, list = `[75, 70, 82, 90]` | Isi setelah diuji | Belum diuji |
-| `04_agregasi_nilai.py` | `[75, 80, 65, 90, 88]` | Total = 398, rata-rata = 79.60, minimum = 65, maksimum = 90 | Isi setelah diuji | Belum diuji |
-| `05_filter_kelulusan.py` | `[75, 55, 80, 60, 45, 90]` | Nilai lulus = `[75, 80, 60, 90]`, jumlah lulus = 4 | Isi setelah diuji | Belum diuji |
-| `06_fungsi_statistik.py` | `[75, 80, 65, 90, 88]` | Rata-rata = 79.60 | Isi setelah diuji | Belum diuji |
-| `analisis_nilai_mahasiswa.py` | `[78, 55, 90, 67, 60, 82, 45, 71, 88, 59]` | Banyak data = 10, total = 695, rata-rata = 69.50, minimum = 45, maksimum = 90, nilai lulus = `[78, 90, 67, 60, 82, 71, 88]`, jumlah lulus = 7, belum lulus = 3 | Isi setelah diuji | Belum diuji |
+| 1 | `01_buat_list.py` — `[75, 80, 65, 90, 88]` | List ditampilkan, banyak data = 5 | List ditampilkan, banyak data = 5 | Berhasil |
+| 2 | `02_indeks_slicing.py` — `[75, 80, 65, 90, 88, 70]` | Elemen pertama = 75, terakhir = 70, slicing = `[75, 80, 65]` dan `[80, 65, 90]` | Elemen pertama = 75, terakhir = 70, slicing = `[75, 80, 65]` dan `[80, 65, 90]` | Berhasil |
+| 3 | `03_manipulasi_list.py` — `[75, 80, 65]` | List akhir = `[75, 70, 82, 90]` | List akhir = `[75, 70, 82, 90]` | Berhasil |
+| 4 | `04_agregasi_nilai.py` — `[75, 80, 65, 90, 88]` | Total = 398, rata-rata = 79.60, minimum = 65, maksimum = 90 | Total = 398, rata-rata = 79.60, minimum = 65, maksimum = 90 | Berhasil |
+| 5 | `05_filter_kelulusan.py` — `[75, 55, 80, 60, 45, 90]` | Nilai lulus = `[75, 80, 60, 90]`, jumlah lulus = 4 | Nilai lulus = `[75, 80, 60, 90]`, jumlah lulus = 4 | Berhasil |
+| 6 | `06_fungsi_statistik.py` — `[75, 80, 65, 90, 88]` | Rata-rata = 79.60 | Rata-rata = 79.60 | Berhasil |
+| 7 | `analisis_nilai_mahasiswa.py` — `[78, 55, 90, 67, 60, 82, 45, 71, 88, 59]` | Banyak data = 10, total = 695, rata-rata = 69.50, minimum = 45, maksimum = 90, jumlah lulus = 7, belum lulus = 3 | Banyak data = 10, total = 695, rata-rata = 69.50, minimum = 45, maksimum = 90, jumlah lulus = 7, belum lulus = 3 | Berhasil |
 
 ## Refleksi
 
